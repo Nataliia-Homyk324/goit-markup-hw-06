@@ -347,13 +347,27 @@ a:not(.privacy-policy) {
 .section-title {
 
     background: var(--NAVY-BLUE, #2E2F42);
-    padding: 188px 0;
+    padding: 72px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     max-width: 1440px;
     margin: 0 auto;
+}
+
+@media screen and (min-width:768px) {
+    .section-title{
+        padding: 112px 0;
+        
+    }
+}
+
+@media screen and (min-width:1158px) {
+    .section-title {
+        padding: 188px 0;
+        
+    }
 }
 
 .section-one {
