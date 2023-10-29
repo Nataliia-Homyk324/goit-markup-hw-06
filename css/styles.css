@@ -769,9 +769,14 @@ a:not(.privacy-policy) {
 
 
 .section-four {
-    padding: 120px 0;
-}
+    padding: 96px 0;
 
+}
+@media screen and (min-width:1158px) {
+    .section-four{
+        padding: 120px 0;
+    }
+}
 .title-two {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
@@ -823,7 +828,11 @@ a:not(.privacy-policy) {
 .item-sec-four:hover .text-img {
     transform: translateY(0%);
 }
+.img-section-f {
+    position: relative;
+    overflow: hidden;
 
+}
 .addition {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -831,11 +840,7 @@ a:not(.privacy-policy) {
 
 }
 
-.img-section-f {
-    position: relative;
-    overflow: hidden;
 
-}
 
 .title-three-section-four {
     display: block;
