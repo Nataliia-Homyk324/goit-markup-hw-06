@@ -646,6 +646,8 @@ a:not(.privacy-policy) {
     .list-section-three {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         column-gap: 24px;
         row-gap: 64px;
     }  
@@ -664,7 +666,7 @@ a:not(.privacy-policy) {
         0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     background: #FFFFFF;
-    
+    min-width: 264px;
 }
 
 @media screen and (min-width:768px) {
@@ -789,11 +791,7 @@ a:not(.privacy-policy) {
     margin-bottom: 72px;
 }
 
-.list-section-three {
-    display: flex;
-    gap: 24px;
 
-}
 
 .item-sec-three {
     background-color: #FFFFFF;
